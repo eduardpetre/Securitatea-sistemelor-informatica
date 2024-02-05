@@ -1,0 +1,35 @@
+1. Notiuni introductive
+
+a) Amestecarea ingredientelor pentru realizarea unei prajituri poate fi considerata one-way function. 
+=> A
+
+b) Functia hash MD5 este considerata sigura la coliziuni.
+=> F
+
+c) SHA256 este o functie hash cu output pe 256 biti.
+=> A
+
+d) Valoarea hash SHA-1 pentru cuvantul "laborator" este 0x4bcc6eab9c4ecb9d12dcb0595e2aa5fbc27231f3.
+=> A
+
+e) Este corect sa afirmam ca "o functie hash cripteaza".
+=> F
+
+f) O functie hash folosita pentru stocarea parolelor trebuie sa fie rapida (i.e., sa se calculeze rapid H(X) pentru x dat).
+=> F
+
+g) Hash-ul (fara salt) - 095b2626c9b6bad0eb89019ea6091bd9 – corespunde unei parole sigure, care nu ar fi susceptibila spre exemplu la un atac de tip dictionar.
+=> F
+
+
+3. Stocarea parolelor
+
+1. Parolele nu sunt memorate corect, fiecare utilizator ar trebui sa aiba o parola asociata. In exemplul dat, parolele sunt adaugate intr o lista fara a cunoaste utilizatorul careia ii corespunde.
+
+2. Hashed usernames: numele utilizatorilor sunt hash-uite si poate avea loc o coliziune. De exemplul hashedUsername1 poate fi identic cu hashedUsername2, iar username1 diferit de username2, deci nu se poate crea un cont desi utilizatorii au folosit nume diferite.
+
+3. Sistemul este vulnerabil deoarece nu s-a folosit salt la criptarea parolelor.
+
+4. Sistemul este vulnerabil deoarece salt-ul este identic pentru toate parolele. Pentru o securitate mai buna, acesta poate fi generat aleator.
+
+5. Functia de tip hash MD5 este mai vulnerabila decat SHA256. SHA256 este un compromis bun intre securitate si performanta, fiind mai sigura impotriva atacurilor si coliziunilor, dar si relativ rapida.

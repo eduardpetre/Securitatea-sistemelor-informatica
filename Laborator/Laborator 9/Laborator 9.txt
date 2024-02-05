@@ -1,0 +1,44 @@
+1. Sample 1
+
+a. Acest cod JavaScript este un cod obfuscat, ceea ce înseamnă că a fost modificat intenționat pentru a fi dificil de înțeles. Daca rulam codul, putem identifica că este un program care afișează un text și un link către un videoclip de pe YouTube.
+Facultatea de Matematica si Informatica
+Universitatea din Bucuresti
+https://www.youtube.com/watch?v=HIcSWuKMwOw
+
+b. Am ajuns la această concluzie prin analiza variabilelor și a operațiilor din cod. Variabilele, precum $, $.$, $.$$, etc., sunt utilizate pentru a crea un șir de caractere care reprezintă un fragment de cod JavaScript. Apoi, acest fragment de cod este evaluat folosind funcția eval() pentru a obține rezultatul final.
+
+c. Mesajul ascuns este:
+18367622009998665
+
+d. Este dificil să determinăm cu exactitate cine a realizat acest cod, deoarece acesta este obfuscat și nu conține informații despre autor. Obfuscare este adesea utilizată pentru a ascunde logică sensibilă sau pentru a face codul dificil de înțeles și modificat. Este important să se menționeze că utilizarea eval() pentru evaluarea codului dinamic introdus poate prezenta riscuri de securitate și nu este recomandată în general.
+
+
+2. Sample 2
+
+a. Aparent, codul efectuează operații de manipulare a șirurilor de caractere și afișează un mesaj în consolă folosind funcția Echo. Codul pare să conțină și referințe la fișiere și obiecte de sistem. Adauga un nou fisier fmi.txt care contine textul Bun venit la acest laborator :)
+
+Output:
+You have been hacked!
+I hope you did not run this on your own PC...
+
+b. Datele fiind obfuscat și fără o înțelegere clară a acțiunilor sale, este dificil să se determine cu certitudine dacă acesta este malware sau nu. Obfuscare poate fi utilizată pentru a ascunde intenții malefice, dar poate fi și folosită în mod legitim pentru a proteja codul sursă. Există câteva indicii în cod care sugerează ca este malware:
+- Mesajul de avertizare la începutul codului ("You have been hacked!") sugerează un comportament dăunător.
+- Tentativa de a citi și afișa conținutul unui fișier poate fi un comportament neautorizat și poate fi o încercare de a accesa sau modifica datele de pe sistemul utilizatorului fără permisiunea acestuia.
+Fisierul in final nu face daune asupra dispozitivului.
+
+c. Nu este posibil să se determine cu exactitate cine a realizat codul pe baza informațiilor furnizate. Informațiile precum comentariile, numele autorului sau alte indicii care ar putea dezvălui originea nu sunt prezente în codul furnizat. Astfel, este dificil să se stabilească cine a scris acest cod sau cu ce scop anume.
+
+
+3. Sample 3
+
+a. Acest cod este un script JavaScript care utilizează WScript pentru a afișa mesaje. În primul rând, afișează două mesaje ("You have been hacked!" și "I hope you did not run this on your own PC..."). Apoi, încearcă să creeze un obiect ActiveXObject, să deschidă un fișier text pentru scriere, să scrie un mesaj în acel fișier, să închidă fișierul și să modifice atributul de securitate al fișierului la "ascuns" (hidden). În caz de eroare, se afișează un alt mesaj.
+
+b. Conținutul de tipul \x$$ reprezintă caractere ASCII în format hexazecimal. Acest mod de scriere este folosit pentru a ascunde textul real în codul sursă, dificultând citirea și înțelegerea acestuia.
+
+c. Diferența principală între acest cod și primul sample este conținutul șirului de caractere și modul în care sunt utilizate obiectele și funcțiile. Cu toate acestea, ambele scripturi par să aibă un caracter malicios, afișând mesaje de amenințare și încercând să efectueze operațiuni asupra sistemului de fișiere. Ambele pot fi considerate potențiale amenințări de securitate și ar trebui evitate sau analizate cu grijă.
+
+
+
+
+
+

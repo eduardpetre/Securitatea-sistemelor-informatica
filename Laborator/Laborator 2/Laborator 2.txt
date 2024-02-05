@@ -1,0 +1,61 @@
+Laborator 2
+
+1. Notiuni generale
+
+A - 4
+B - 2
+C - 5
+D - 1
+E - 6
+F - 3
+
+
+2. Triada Confidentiality, Integrity, Availability (CIA)
+
+1. Confidentiality
+2. Availability
+3. Integrity
+4. Confidentiality
+5. Integrity 
+
+Integritate:
+
+Funcțiile hash criptografice: Pentru a asigura integritatea datelor, pot fi folosite funcții hash criptografice precum SHA-256. O funcție hash transformă datele într-un șir de lungime fixă (hash) și chiar o mică modificare a datelor de intrare va produce un hash complet diferit. Acest lucru permite detectarea modificărilor accidentale sau intenționate ale datelor.
+
+Semnăturile digitale: Pentru a asigura integritatea și autenticitatea datelor, semnăturile digitale pot fi utilizate. O semnătură digitală este creată folosind cheia privată a expeditorului și poate fi verificată cu cheia publică a expeditorului pentru a confirma că datele nu au fost modificate și că ele provin de la expeditorul autentic.
+
+
+3. Adversar probabilistic polinomial in timp (PPT)
+
+1. F
+2. A
+3. F
+
+
+4. Functii neglijabile
+
+3, 4, 5
+
+
+5. Securitate computationala
+
+Adversarii pot avea resurse semnificativ limitate, iar utilizarea securității computaționale ne permite să protejăm datele noastre fără a depinde de ipoteze iraționale despre resursele infinite ale adversarilor.
+
+Utilizarea algoritmilor de securitate computațională permite protecția datelor cu un impact semnificativ mai mic asupra performanței și eficienței sistemelor informatice. Soluțiile care vizează securitatea perfectă adesea implică costuri semnificative în ceea ce privește timpul de procesare și resursele necesare.
+
+Abordarea securității computaționale recunoaște faptul că securitatea absolută poate fi dificil sau imposibil de atins în practică. În schimb, ne concentrăm pe obținerea unui nivel rezonabil de securitate care să protejeze datele noastre împotriva celor mai probabili adversari.
+
+
+6. Atac prin forta bruta/ cautare exhaustiva
+
+Se consideră un sistem criptografic care folosește o cheie de criptare pe 512 biți. 
+1. Câte chei posibile distincte există?
+2^512 chei posibile
+
+2. Cât timp îi va lua unui adversar găsirea cheii corecte (cazul cel mai nefavorabil) dacă are la dispoziție un calculator care testează 2^ chei pe secundă?
+
+Timp = (Număr total de chei) / (Rate-ul de testare a cheilor pe secundă)
+Timp = (2^512) / (2^30) = 2^482 s
+
+3. Este un atac eficient?
+Nu, un adversar ar avea nevoie de o cantitate uriașă de resurse și timp pentru a sparge o astfel de cheie.

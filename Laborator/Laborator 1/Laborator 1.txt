@@ -1,0 +1,79 @@
+Laborator 1
+
+1. Notiuni generale
+
+(A) Adversar - (3) O entitate (inclusiv un insider) care actioneaza rau intentionat pentru a compormite un sistem.
+
+(B) Securitate - (1) O conditie care rezulta din stabilirea si mentinerea masurilor de protectie care permit unei organizatii/sistem sa isi indeplineasca misiunea sau functiile critice, in ciuda riscurilor reprezentate de amenintari.
+
+(C) Risc - (5) O masura a gradului in care o entitate este amenintata de o eventuala circumstanta sau eveniment.
+	
+(D) Vulnerabilitate - (2) Slabiciune intr-un sistem informational, proceduri de securitateale sistemului, controale interne sau implementare care ar putea fi exploatate sau declansate de o sursa de amenintare.
+
+(E) Securitate cibernetica - (4) Capacitateade a proteja/apara spatiul cibernetic de atacuri cibernetice.
+
+
+2. The Security Mindset
+
+https://youtu.be/eZNzMKS7zjo
+
+
+3. Sisteme de numeratie
+
+	Considerați ziua în care v-ați născut la care adăugați valoarea 10. Transformați în binar această valoare. Faceți transformarea inversă.
+
+30 + 10 = 40 => 101000
+2^3 + 2^5 = 40
+
+	Considerați un număr hexazecimal oarecare de 4 cifre. Transformați în binar această valoare. Faceți transformarea inversă.
+
+C5BB => 1100 0101 1011 1011 => 1100010110111011
+       (C=12) (5)(B=11)(B=11)
+
+1100010110111011 => 1100 0101 1011 1011 => C5BB
+1100 => 2^3 + 2^2 = 12 = C
+0101 => 2^2 + 2^0 = 5 
+1011 => 2^3 + 2^1 + 2^0 = 11 = B
+
+Online Converter - https://www.rapidtables.com/convert/number/decimal-to-binary.html
+
+
+4. Codul ASCII
+
+	Considerați prenumele dumneavoastră, scris cu majuscule. Ce îi corespunde conform codificării ASCII?
+
+EDUARD => 69 68 85 65 82 68
+
+	Se consideră codificarea ASCII 66 82 65 86 79. Ce cuvânt îi corespunde?
+BRAVO
+
+Online converter - https://www.rapidtables.com/convert/number/ascii-hex-bin-dec-converter.html
+
+5. Base64
+	
+	Considerați numele dumneavoastră, scris cu majuscule. Ce îi corespunde conform codificării Base64?
+
+UEVUUkU=
+
+	Se consideră codificarea Base64 dată de string-ul următor: U3VudCBzdHVkZW50IGxhIEZNSS4=. Ce îi corespunde?
+
+Sunt student la FMI.
+
+Online converter - https://www.rapidtables.com/convert/number/ascii-hex-bin-dec-converter.html
+
+6. Introducere în malware
+
+	Explicati pe scurt fiecare dintre termenii:
+
+malware = Hardware, firmware sau software rau intentionate care sunt introduse intentionat intr-un sistem pentru a deteriora functionearea normala a acestuia. 
+virus = Un program care se poate raspandi pentru a infecta sisteme fara permisiunea utilizatorului si fara ca acesta sa stie.
+dropper = Un software care ascunde un malware de anti-virus pentru a facilita infectarea sistemelor.  
+downloader = Un software ce are ca scop instalarea unui malware pe un sistem fara sa declanseze alarme de securitate.
+trojan = Un tip de malware deghizat intr-un software normal care odata ajuns in sistem ofera atacatorului toate permisiunile user-ului.
+spyware = Un tip de malware care acumuleaza informatiile unui sistem si al utilizatorului si le trimte mai departe fara cunostinta sau permisiunea acestuia.
+riskware = Orice program legitim care prezintă riscuri potențiale din cauza 	vulnerabilității de securitate, incompatibilității software-ului sau încălcărilor legale. 
+ransomware = Un tip de malware care amenință să publice sau blochează accesul la date sau la un sistem, de obicei prin criptarea acestora, până când victima plătește o taxă de răscumpărare atacatorului.
+adware = Un tip de malware sau software nedorit conceput pentru a furniza reclame direcționate pe computerele infectate
+worm = Un subset al malware-ului trojan care se poate raspandi singur de la un computer la altul de obicei prin LAN.
+obfuscare = A face ceva greu de inteles. Un cod greu de inteles este mai greu de atacat.
+

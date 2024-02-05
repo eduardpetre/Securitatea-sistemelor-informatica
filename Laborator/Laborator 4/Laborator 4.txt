@@ -1,0 +1,18 @@
+1. Notiuni generale
+
+A - 4
+B - 2
+C - 1
+D - 3
+E - 6
+F - 5
+
+2. Identificarea vizuala a unui atac de tip phishing
+
+- e-mailul mbm@externalys.net atat numele cat si domeniul 
+- numele bancii Home bank.ro 
+- alinierea textului si greselile de scriere
+
+3. Analiza e-mailurilor de tip phishing
+
+poza

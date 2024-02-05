@@ -1,0 +1,14 @@
+1. Tipuri de fisiere, fisiere Porteble Executable (PE)
+
+- Nimic suspicios.
+- In HxD am sesizat sintaxa C++.
+- Fortinet ! W32/Agent.ADMH!tr
+- Observand liniile de cod din C++, acesta incearca sa redenumeasca un folder si sa stearga fisierele PDF. De asemenea, acesta incearca sa utilizeze procesorul la 100% printr-o interatie lunga.
+
+2. Vulnerabilitati introduse prin programare
+
+a. Este folosita functia strncmp ceea ce reprezinta o vulnerabilitate. (Atac Buffer Overflow)
+
+b. aaaaaaaaaaaaaa
+
+c. Buffer Overflow.  Acesta apare atunci când se depășește spațiul alocat pentru un buffer (în acest caz, șirul input).

@@ -1,0 +1,46 @@
+1. Notiuni introductive
+
+Candidate 1
+- seed-ul are mereu valoarea 0, se face xor pe seed si el insusi
+
+Candidate 2
+- calculeaza seed-ul urmator, insa are o limita de la care nu se va mai modifica
+
+Candidate 3
+- shifteaza cu 2 biti seedul, dar nu se genereaza alta valoare
+
+=> are mereu valoarea 0, deci e constanta, deci nu definesc un PRG
+
+
+2. Secrets.py
+
+3. CVE, CWE, CAPEC
+
+Raspundeti la urmatoarele cerinte:
+- Ce problema identificati in urmatoarele secvente de cod?
+Figura 1: programul foloseste acelasi seed pentru fiecare generare si se vor obtine aceleasi numere, deci sistemul este vulnerabil
+Figura 2: seed-ul este intotdeauna id-ul user-ului, deci id-ul sesiunii va fi acelasi si poate fi prezis, astfel este in pericol in cazul unui atac de tip hijack
+
+- Care este CWE ID asociat scenariilor de mai sus si problemei pe care acestea o ridica?
+CWE ID = 336 (Same seed in Pseudo-Random Number Generator)
+
+- Ce se intampla daca nu se foloseste acelasi seed de fiecare data, dar spatiul seed-urilor posibile este mic? Puteti gasi un CWE ID corespunsator acestui caz?
+
+CWE ID = 339 (Small seed space in PRNG)
+
+Daca spatiul seed-urilor posibile este mai mic creste posbilitatea de prezicere a valorii seed-ului in cazul unui atac brute force.
+
+- Cautati atacul identificat la punctul precedent in [5]. Identificati si aici o mentiunea la seed?
+
+Brute force
+=> CAPEC ID = 112
+
+- Gasiti alte utilizari defectuase ale PRG explicate in alte CWE-uri. Exista CVE=uri corespunzatoare acestora?
+
+CWE ID = 338 (Use of Cryptographically Weak Pseudo-Random Number Generator)
+
+CWE ID = 337 (Predictable Seed in Pseudo-Random Number Generator)
+
+- Cautati inregistrari CVE care se refera la vulnerabilitati in legatura cu PRG. Cate ati identificat ca fiind definite in acest an?
+
+https://www.cve.org/CVERecord?id=CVE-2023-20107

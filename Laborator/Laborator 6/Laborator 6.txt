@@ -1,0 +1,21 @@
+2. Advanced Encryption Standard (AES)
+
+a) Executati secventa de mai sus. Ce obtineti?
+Secventa de mai sus cripteaza simetric textul dat in functie de cheia primita.
+
+b) Ce mod de operare este folosit? Ce observati?
+Modul de operare folosit este Electronic Code Book. Fiecare bucata de text este criptata independent.
+
+c) Ati recomanda folosirea modului de operare de la b)? De ce? De ce nu?
+Nu recomand folosirea modului de operare ECB deoarece este cel mai simplu si vulnerabil.
+Din cauza faptului ca fiecare bucata de text este criptata independent si unic exista posibilitatea de a se observa legaturi intre mesajele criptate.
+
+d) Care este dimensiunea cheii? Dar a blocului?
+Dimensiunea cheii si a blocului este de 16 bytes.
+
+e) Modificati codul astfel incat sa functioneze daca se inlocuieste valoarea data cu data = b'test'.
+
+f) Refaceti, codul schimband modul de operare cu un alt mod de operare pe care il considerati mai potrivit.
+CCM - suporta blocuri de orice dimensiune
+
+3. Atacul Meet-in-the-Middle

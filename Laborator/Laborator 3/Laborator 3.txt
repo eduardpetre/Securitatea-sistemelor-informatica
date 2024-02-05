@@ -1,0 +1,92 @@
+1. One Time Pad (OTP)
+
+1.
+
+4f6e652054696d6520506164206573746520756e2073697374656d20646520637269707461726520706572666563742073696775722064616361206573746520666f6c6f73697420636f726563742e
+
+One Time Pad este un sistem de criptare perfect sigur daca este folosit corect.
+
+2.
+ ecad8de748ef0b1a857f032101bdb51f5e07c3c37931c37b3c3219ef748215708cf046a18588c1e2f897ca0076ca7f924eb1e6efcb1b905afed5d110228d24049b824cf2d3ec4980219208fa55cad9
+
+3. Daca cineva are acces la un mesaj, atunci poate afla cheia, si respectiv toate mesajele criptate cu aceeasi cheie
+
+
+2. Sisteme de criptare istorice
+
+1. Un sistem istoric de criptare bazat pe metoda substituției este cifrul Caesar. Acesta este numit și cifrul de deplasare sau cifrul lui Cezar și a fost folosit de Gaius Iulius Caesar în timpul războaielor sale. Acest sistem de criptare presupune înlocuirea fiecărui caracter din textul clar (textul neprotejat) cu un alt caracter, care este deplasat cu un număr fix de poziții în alfabet.
+
+Exemplu de criptare:
+Pentru a cripta un text folosind cifrul Caesar, se alege o valoare numită cheie, care reprezintă numărul de poziții cu care fiecare literă din textul clar va fi deplasată în alfabet. De exemplu, dacă cheia este 3, atunci litera "A" va deveni "D," "B" va deveni "E," "C" va deveni "F," și așa mai departe. Textul criptat este rezultatul acestei înlocuiri.
+
+Exemplu de decriptare:
+Decriptarea se face invers, adică fiecare literă din textul criptat este deplasată înapoi cu valoarea cheii pentru a obține textul clar original.
+
+De exemplu, folosind cifrul Caesar cu o cheie de 3:
+
+Textul clar: "HELLO"
+Textul criptat: "KHOOR"
+Pentru decriptare:
+
+Textul criptat: "KHOOR"
+Cheie: 3
+Textul clar: "HELLO"
+Securitatea sistemului de criptare:
+Cifrul Caesar este un sistem de criptare foarte simplu și este considerat un cifru învechit și nesigur. Este vulnerabil la atacuri de forță brută, deoarece există doar 25 de chei posibile (de la 1 la 25), ceea ce face relativ ușor pentru un atacator să încerce toate cheile posibile pentru a decripta textul criptat. În plus, deoarece fiecare literă este înlocuită în mod consistent, cifrul Caesar nu oferă nicio securitate reală împotriva analizei frecvențelor.
+
+Tehnici de criptanaliză pentru a sparge cifrul Caesar:
+
+Atacul prin forță brută: Un atacator poate încerca toate cele 25 de chei posibile pentru a decripta textul criptat.
+Analiza frecvențelor: Dacă un atacator are o idee aproximativă a limbii din care provine textul, el poate să efectueze un atac prin analiza frecvențelor, în care identifică modelele de litere cele mai comune în limbajul respectiv. De exemplu, "E" este litera cea mai frecventă în limba engleză, așa că cel mai probabil va reprezenta litera "E" în textul clar criptat.
+Atacul cu text clar cunoscut: Dacă atacatorul cunoaște o porțiune de text clar în textul criptat (de exemplu, știe că "HELLO" a fost criptat ca "KHOOR"), el poate deduce cheia folosită în mod relativ ușor.
+În concluzie, cifrul Caesar nu oferă o securitate semnificativă și nu ar trebui folosit pentru a proteja informații sensibile în ziua de azi. Este un exemplu simplu de criptare istorică și a fost înlocuit de algoritmi de criptare mult mai puternici și siguri în era modernă.
+
+2. Un sistem istoric de criptare care folosește metoda transpoziției este cifrul scitală. Acest sistem de criptare implică rearanjarea literelor din textul clar într-un mod specific, pentru a crea textul criptat.
+
+Exemplu de criptare:
+Pentru a cripta un text folosind cifrul scitală, se decide o cheie de criptare care indică modul în care literele vor fi rearanjate. De exemplu, să luăm un text clar: "HELLO, WORLD!" și să folosim o cheie care specifică că litera va fi citită de sus în jos, pe coloane, cu 4 coloane. Textul clar este așezat într-un grid de 4 coloane și citit de sus în jos, de la stânga la dreapta, apoi se iau caracterele din fiecare coloană în ordine, pentru a forma textul criptat.
+
+Exemplu de decriptare:
+Pentru decriptare, destinatarul știe cheia și poate rearanja literele în funcție de cheie pentru a obține textul clar original. Utilizând aceeași cheie ca în exemplul de mai sus, destinatarul ar citi textul criptat în coloane de la stânga la dreapta și de sus în jos pentru a obține textul clar original.
+
+Pentru exemplul dat, dacă cheia este 4, textul criptat "HOLELWRDLO" va fi rearanjat pentru a obține textul clar "HELLO, WORLD!".
+
+Securitatea sistemului de criptare:
+Cifrul scitală este un sistem de criptare istoric, dar este considerat nesigur în lumea modernă. Poate fi ușor spart cu metode simple, deoarece nu are o cheie complexă și poate fi supus unor atacuri de forță brută. Un atacator poate încerca diferite chei pentru a vedea care dintre ele produce un text clar sensibil. În plus, deoarece cifrul scitală are un număr fix de coloane în care se rearanjează literele, acest lucru poate dezvălui anumite modele în textul criptat care ar putea ajuta la spargerea criptării.
+
+Tehnici de criptanaliză pentru a sparge cifrul scitală:
+
+Atacul prin forță brută: Un atacator poate încerca toate cheile posibile pentru a decripta textul criptat.
+Analiza frecvențelor: Dacă textul criptat este destul de lung, atacatorul poate observa modele de frecvență care ar putea sugera că a fost folosit un cifru scitală.
+Atacul cu text clar cunoscut: Dacă atacatorul are o idee despre conținutul textului clar, el poate utiliza această cunoaștere pentru a ghici cheia de criptare.
+În general, cifrul scitală nu oferă o securitate semnificativă și nu ar trebui folosit pentru a proteja informații sensibile în ziua de azi. Este un exemplu simplu de criptare istorică și a fost înlocuit de algoritmi de criptare mult mai puternici și siguri în era modernă.
+
+
+3. Analiza de frecventa
+
+ALICE AND BOB ARE THE WORLDS MOST FAMOUS CRYPTOGRAPHIC COUPLE. SINCE
+THEIR INVENTION IN 1978, THEY HAVE AT ONCE BEEN CALLED INSEPARABLE, AND
+HAVE BEEN THE SUBJECT OF NUMEROUS DIVORCES, TRAVELS, AND TORMENTS. IN THE
+ENSUING YEARS, OTHER CHARACTERS HAVE JOINED THEIR CRYPTOGRAPHIC FAMILY.
+THERES EVE, THE PASSIVE AND SUBMISSIVE EAVESDROPPER, MALLORY THE MALICIOUS
+ATTACKER, AND TRENT, TRUSTED BY ALL, JUST TO NAME A FEW. WHILE ALICE, BOB, AND
+THEIR EXTENDED FAMILY WERE ORIGINALLY USED TO EXPLAIN HOW PUBLIC KEY
+CRYPTOGRAPHY WORKS, THEY HAVE SINCE BECOME WIDELY USED ACROSS OTHER
+SCIENCE AND ENGINEERING DOMAINS. THEIR INFLUENCE CONTINUES TO GROW
+OUTSIDE OF ACADEMIA AS WELL: ALICE AND BOB ARE NOW A PART OF GEEK LORE, AND
+SUBJECT TO NARRATIVES AND VISUAL DEPICTIONS THAT COMBINE PEDAGOGY
+WITH IN-JOKES, OFTEN REFLECTING OF THE SEXIST AND HETERONORMATIVE
+ENVIRONMENTS IN WHICH THEY WERE BORN AND CONTINUE TO BE USED. MORE THAN
+JUST THE WORLDS MOST FAMOUS CRYPTOGRAPHIC COUPLE, ALICE AND BOB HAVE
+BECOME AN ARCHETYPE OF DIGITAL EXCHANGE, AND A LENS THROUGH WHICH TO VIEW
+BROADER DIGITAL CULTURE. Z.DUPONT AND A.CATTAPAN CRYPTOCOUPLE
+
+Am analizat frecventa literelor A, respectiv E care in substitutia initiala erau E, respectiv J
+
+
+4. Sistemul de criptare mecanic Enigma
+
+1. 31 - I V IV - 01 13 04 - OAM
+2, 3. vcktl kdbce xaipc fn
+4. am folosit decoder-ul cu aceeasi cheie a zilei
+5. vcktl kdbce duard fn
